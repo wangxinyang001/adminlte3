@@ -1,0 +1,37 @@
+{
+  "name": "wangxinyang001/adminlte3",
+  "description": "AdminLTE3 extension for laravel-admin",
+  "type": "library",
+  "keywords": [
+    "laravel-admin",
+    "extension",
+    "AdminLTE3"
+  ],
+  "homepage": "https://gitee.com/wangxinyang001/adminlte3",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wangxinyang",
+      "email": "947576702@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "encore/laravel-admin": "^1.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wxy\\Adminlte\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Wxy\\Adminlte\\AdminlteServiceProvider"
+      ]
+    }
+  }
+}
