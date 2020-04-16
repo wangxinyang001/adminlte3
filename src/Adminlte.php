@@ -1,6 +1,6 @@
 <?php
 
-namespace Famio\Adminlte;
+namespace Wxy\Adminlte;
 
 use Encore\Admin\Extension;
 
