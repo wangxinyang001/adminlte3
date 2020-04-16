@@ -1,6 +1,6 @@
 <?php
 
-namespace Famio\Adminlte\Http\Controllers;
+namespace Wxy\Adminlte\Http\Controllers;
 
 use Encore\Admin\Layout\Content;
 use Illuminate\Routing\Controller;
